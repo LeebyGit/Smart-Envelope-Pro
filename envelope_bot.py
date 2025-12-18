@@ -90,7 +90,7 @@ def fill_hwp_envelope():
         messagebox.showerror("오류", "한글(HWP)을 실행할 수 없습니다.")
         return
 
-    hwp_path = os.path.join(os.getcwd(), "서류봉투(A4).hwp")
+    hwp_path = os.path.join(os.getcwd(), "서류봉투(A4) 주소.hwp")
     if not os.path.exists(hwp_path):
         messagebox.showerror("오류", f"파일을 찾을 수 없습니다:\n{hwp_path}")
         return
